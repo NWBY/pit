@@ -11,3 +11,11 @@ git checkout develop && git pull
 ```
 pit chpl develop
 ```
+
+Although this project is just a bit of fun, the commands that are currently supported are listed below:
+| pit                  | git                                  |
+| ---------------------|:------------------------------------:|
+| chpl <branch>        | git checkout <branch> && git pull    |
+| ch <branch>          | git checkout <branch>                |
+| a <files>            | git add <file>                       |
+| aac <commit message> | git add . && git commit -m <message> |
