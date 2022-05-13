@@ -13,9 +13,9 @@ pit chpl develop
 ```
 
 Although this project is just a bit of fun, the commands that are currently supported are listed below:
-| pit                  | git                                  |
-| ---------------------|:------------------------------------:|
-| chpl {branch}        | git checkout {branch} && git pull    |
-| ch {branch}          | git checkout {branch}                |
-| a {files}            | git add {file}                       |
-| aac {commit message} | git add . && git commit -m {message} |
+| pit                  | git                                | saved keystrokes including spaces |
+| ---------------------|------------------------------------|-----------------------------------|
+| chpl {branch}        | checkout {branch} && git pull      | 16                                |
+| ch {branch}          | checkout {branch}                  | 6                                 |
+| a {files}            | add {file}                         | 2                                 |
+| aac "{message}"      | add . && git commit -m "{message}" | 19                                |
